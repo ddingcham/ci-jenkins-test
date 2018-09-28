@@ -12,5 +12,10 @@ public class WebForIrApplicationTests {
 	@Test
 	public void contextLoads() {
 	}
+	
+	@Test
+	public void environmentsLoads() {
+		
+	}
 
 }
