@@ -1,4 +1,4 @@
-package com.dorinity.web;
+package com.dorinity;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
