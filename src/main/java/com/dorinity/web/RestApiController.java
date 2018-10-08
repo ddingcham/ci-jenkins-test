@@ -24,6 +24,11 @@ public class RestApiController {
 				.findFirst()
 				.orElse("default profile");
 	}
+	
+	@GetMapping("/profile/all")
+	public String showCurrentProperties(){
+		return Arrays.toString(environment.getActiveProfiles());
+	}
 
 	public void setEnvironment(Environment environment) {
 		this.environment = environment;
