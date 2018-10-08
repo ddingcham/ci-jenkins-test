@@ -7,7 +7,8 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 public class WebForIrApplication {
 
 	private static final String APPLICATION_LOCATIONS =
-			"classpath:application.yml,"
+			"spring.config.location="
+			+ "classpath:application.yml,"
 			+ "classpath:application.properties,"
 			+ "/application/config/real-application.yml";
 	
